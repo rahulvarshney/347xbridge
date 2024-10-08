@@ -6,22 +6,15 @@ export default function Home() {
   return (
     <div class="px-1 py-8 mx-auto bg-[#86efac]">
       <div class="flex flex-wrap">
-        <table>
-          <tr>
-          <th>Points</th> 
-          <th>Bid</th>
-          <th>RcR</th>
-          </tr>
-          <tr><td>13-21</td>
-          <td>1 of a suit</td>
-          <td>&ge; 5 card major suit; If no 5 card major then bid longer minor (if 3-3 bid 1C: if 4-4 bid 1d)</td>
-          </tr>
 
-        </table>
-        <p>Points</p>
+        <div class="flex flex-wrap">
+        <p>Points BI</p>
         <p>13-21</p>
-        <p>Bid</p>
-        
+        <p class="grow">Bid</p>
+        <p>Restrictions/Comments/Rebids</p>
+        <p>1 of a suit</p>
+        <p>&ge; 5 card major suit; If no 5 card major then bid longer minor (if 3-3 bid 1C: if 4-4 bid 1d)</p>
+        </div>
         <img
           class="my-6"
           src="/logo.svg"
