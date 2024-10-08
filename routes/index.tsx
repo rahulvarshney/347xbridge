@@ -5,7 +5,9 @@ export default function Home() {
   const count = useSignal(3);
   return (
     <div class="px-1 py-8 mx-auto bg-[#86efac]">
-      <div class="flex flex-col-reverse">
+      <div class="flex flex-col">
+        <p>Points</p>
+        <p>13-21</p>
         <img
           class="my-6"
           src="/logo.svg"
