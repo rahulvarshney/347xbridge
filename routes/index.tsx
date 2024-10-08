@@ -1,4 +1,4 @@
-/*import { useSignal } from "@preact/signals";
+import { useSignal } from "@preact/signals";
 import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
           height="128"
           alt="the Fresh logo: a sliced lemon dripping with juice"
         />
-        <h1 class="text-4xl font-bold">Welcome to 347 xbridge going STATIC</h1>
+        <h1 class="text-4xl font-bold">RESET 347 xbridge</h1>
         <p class="my-4">
           Try updating this message in the
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
@@ -23,15 +23,3 @@ export default function Home() {
     </div>
   );
 }
-*/
-import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
-
-const HTML = await Deno.readFile("./static/index.html");
-
-serve(async () => {
-  return new Response(HTML, {
-    headers: {
-      "content-type": "text/html",
-    },
-  });
-});
