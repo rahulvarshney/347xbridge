@@ -6,6 +6,18 @@ export default function Home() {
   return (
     <div class="px-1 py-8 mx-auto bg-[#86efac]">
       <div class="flex flex-wrap">
+        <table>
+          <tr>
+          <th>Points</th> 
+          <th>Bid</th>
+          <th>RcR</th>
+          </tr>
+          <tr><td>13-21</td>
+          <td>1 of a suit</td>
+          <td>&ge; 5 card major suit; If no 5 card major then bid longer minor (if 3-3 bid 1C: if 4-4 bid 1d)</td>
+          </tr>
+
+        </table>
         <p>Points</p>
         <p>13-21</p>
         <p>Bid</p>
