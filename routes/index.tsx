@@ -5,22 +5,16 @@ export default function Home() {
   const count = useSignal(3);
   return (
     <div class="px-1 py-8 mx-auto bg-[#86efac]">
-      <div class="flex flex-col">
+      <div class="flex flex-row flex-wrap">
+
         <p>Points</p>
         <p>13-21</p>
-        <img
-          class="my-6"
-          src="/logo.svg"
-          width="128"
-          height="128"
-          alt="the Fresh logo: a sliced lemon dripping with juice"
-        />
-        <h1 class="text-4xl font-bold">0.0.6 347 xbridge</h1>
-        <p class="my-4">
-          Try updating this message in the OOH YEAH SOME LIKE IT RW
-          <code class="mx-2">./routes/index.tsx</code> file, and refresh.
-        </p>
-        <Counter count={count} />
+        <p>Bid</p>
+
+        <h3 class="title flex-title">
+          <span class="title-main">Main Title Here</span>
+          <span class="title-note">This is a good look, right here.</span>
+        </h3>
       </div>
     </div>
   );
