@@ -15,7 +15,7 @@ export default function Home() {
         />
         <h1 class="text-4xl font-bold">RESET 347 xbridge</h1>
         <p class="my-4">
-          Try updating this message in the
+          Try updating this message in the OOH YEAH SOME LIKE IT RW
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
         </p>
         <Counter count={count} />
