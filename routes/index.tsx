@@ -4,23 +4,35 @@ import Counter from "../islands/Counter.tsx";
 export default function Home() {
   const count = useSignal(3);
   return (
-    <div class="px-1 py-8 mx-auto bg-[#86efac] grid grid-cols-4 gap-4">
-        <div class="basis-1/3">Points</div>
-        <div class="basis-2/3">13-21</div>
-        <div class="basis-2/3">Bid</div>
-        <div>Restrictions/Comments/Rebids</div>
-        <div>1 of a suit</div>
-        <div>&ge; 5 card major suit; If no 5 card major then bid longer minor (if 3-3 bid 1C: if 4-4 bid 1d)
+<div class="grid">
+  <span>
+    <strong>Points</strong>
+  </span>
+  <span>
+    <strong>Bid</strong>
+  </span>  
+  <span>
+    <strong>Restrictions/Comments/Rebids</strong>
+  </span>
+  <span>13-21</span>
+  <span>1 of a suit</span>
+  <span>&ge; 5 card major suit; If no 5 card major then bid longer minor 
+          (If 3-3, bid 1C; if 4-4 then bid 1D)
+  </span>
+  <span>Rule of 20</span>
+  <span>For weaker hands, add the number of cards
+    in your two longest suits to your HCP. 
+    If the total is 20 or more make a normal opening bid of 1 of a suit.</span>
+    <span>
+      <ul>
+        <li>Use this rule only on first and second seat.
+          (that means your partner has not yet had a chance to bid)
+        </li>
+        <li>Other restrictions as above.
+        </li>
+      </ul>
+    </span>
+</div>
 
-        </div>
-
-        <div class="text-4xl font-bold">WRAP</div>
-        <div class="my-4">
-          Try updating this message in the OOH YEAH SOME LIKE IT RW
-          <code class="mx-2">./routes/index.tsx</code> file, and refresh.
-        </div>
-        <Counter count={count} />
-      
-    </div>
   );
 }
