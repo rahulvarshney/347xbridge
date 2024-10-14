@@ -29,34 +29,34 @@
   @media (max-width: 800px) {
     .grid{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto 1fr;
         grid-template-areas: "xpoints xpointsvalue"
                              "xbid    xbidvalue"
                              "xrcr    xrcr"
                              "xrcrvalue xrcrvalue";
       }
 
-      .xpoints {
+      .xpoints :first-child  {
         grid-area: xpoints;
       }
 
-      .xpointsvalues {
+      .xpointsvalues :first-child  {
         grid-area: xpointsvalue;
       }
 
-      .xbid {
+      .xbid :first-child {
         grid-area: xbid;
       }
 
-      .xbidvalue {
+      .xbidvalue :first-child  {
         grid-area: xbidvalue;
       }
 
-      .xrcr {
+      .xrcr :first-child  {
         grid-area: xrcr;
       }
 
-      .xrcrvalue {
+      .xrcrvalue :first-child {
         grid-area: xrcrvalue;
       }
 
