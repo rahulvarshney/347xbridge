@@ -24,13 +24,10 @@ export default function Home() {
     in your two longest suits to your HCP. 
     If the total is 20 or more make a normal opening bid of 1 of a suit.</span>
     <span>
-      <ul>
-        <li>Use this rule only on first and second seat.
-          (that means your partner has not yet had a chance to bid)
-        </li>
-        <li>Other restrictions as above.
-        </li>
-      </ul>
+      <p>&bull; Use this rule only on first and second seat.
+      (that means your partner has not yet had a chance to bid)
+      </p>
+      <p>&bull; Other restrictions as above.</p>
     </span>
 </div>
 

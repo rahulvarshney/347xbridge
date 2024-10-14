@@ -3,24 +3,26 @@
 @tailwind utilities;
 
 * {
-    font: 1.5rem/2.5rem Verdana, sans-serif;
+    /*font: 1.5rem/2.5rem Verdana, sans-serif;*/
   }
   
   .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: minmax(50px, auto) 1fr 1fr;
     border-top: 1px solid black;
     border-right: 1px solid black;
                                                
     background-color: #21F396;
     padding: 10px;
-    text-align: center;
+    text-align: justify;
   }
 
   .grid > span {
     padding: 8px 4px;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
   }
 
 
