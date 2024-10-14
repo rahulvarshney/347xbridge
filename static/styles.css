@@ -27,5 +27,38 @@
 
 
   @media (max-width: 800px) {
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "xpoints xpointsvalue"
+                             "xbid    xbidvalue"
+                             "xrcr    xrcr"
+                             "xrcrvalue xrcrvalue";
+      }
 
-  }
+      .xpoints {
+        grid-area: xpoints;
+      }
+
+      .xpointsvalues {
+        grid-area: xpointsvalue;
+      }
+
+      .xbid {
+        grid-area: xbid;
+      }
+
+      .xbidvalue {
+        grid-area: xbidvalue;
+      }
+
+      .xrcr {
+        grid-area: xrcr;
+      }
+
+      .xrcrvalue {
+        grid-area: xrcrvalue;
+      }
+
+
+    }
