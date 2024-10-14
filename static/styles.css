@@ -8,7 +8,7 @@
   
   .grid {
     display: grid;
-    grid-template-columns: minmax(50px, auto) 1fr 1fr;
+    grid-template-columns: minmax(10px, auto) 1fr 1fr;
     border-top: 1px solid black;
     border-right: 1px solid black;
                                                
@@ -21,7 +21,7 @@
     padding: 8px 4px;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(88, 45, 45);
     border-right: 1px solid black;
   }
 
