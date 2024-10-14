@@ -19,11 +19,11 @@ export default function Home() {
   <span class="xrcrvalue">&ge; 5 card major suit; If no 5 card major then bid longer minor 
           (If 3-3, bid 1C; if 4-4 then bid 1D)
   </span>
-  <span class="xpointsvalue">Rule of 20</span>
-  <span class="xbidvalue">For weaker hands, add the number of cards
+  <span>Rule of 20</span>
+  <span>For weaker hands, add the number of cards
     in your two longest suits to your HCP. 
     If the total is 20 or more make a normal opening bid of 1 of a suit.</span>
-    <span class="xrcrvalue">
+    <span>
       <p>&#10086;Use this rule only on first and second seat.
       (that means your partner has not yet had a chance to bid)
       </p>

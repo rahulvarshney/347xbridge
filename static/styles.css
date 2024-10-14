@@ -36,27 +36,27 @@
                              "xrcrvalue xrcrvalue";
       }
 
-      .xpoints :first-child  {
+      .xpoints {
         grid-area: xpoints;
       }
 
-      .xpointsvalues :first-child  {
+      .xpointsvalues  {
         grid-area: xpointsvalue;
       }
 
-      .xbid :first-child {
+      .xbid {
         grid-area: xbid;
       }
 
-      .xbidvalue :first-child  {
+      .xbidvalue{
         grid-area: xbidvalue;
       }
 
-      .xrcr :first-child  {
+      .xrcr  {
         grid-area: xrcr;
       }
 
-      .xrcrvalue :first-child {
+      .xrcrvalue {
         grid-area: xrcrvalue;
       }
 
