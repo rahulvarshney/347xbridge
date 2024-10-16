@@ -2,66 +2,135 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    /*font: 1.5rem/2.5rem Verdana, sans-serif;*/
-  }
   
   .grid {
     display: grid;
-    grid-template-columns: minmax(10px, auto) 1fr 1fr;
+    grid-template-columns: 10% 1fr 1fr;
+    grid-template-rows: repeat(7, minmax(1fr, 20px));
+    grid-template-areas:  "xtitle     xtitle      xtitle    "
+                          "xcaption   xcaption    xcaption  "
+                          "xheading   xheading    xheading  "
+                          "xrow1A     xrow1B      xrow1C"
+                          "xrow2A     xrow2B      xrow2C"
+                          "xrow3A     xrow3B      xrow3C"
+                          "xrow4A     xrow4B      xrow4C";
     border-top: 1px solid black;
     border-right: 1px solid black;
                                                
     background-color: #21F396;
-    padding: 10px;
     text-align: justify;
   }
 
   .grid > span {
-    padding: 8px 4px;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
     border-top: 1px solid rgb(88, 45, 45);
     border-right: 1px solid black;
   }
 
+  .xtitle {
+    grid-area: xtitle;
+  }
+  .xcaption {
+    grid-area: xcaption;
+  }
+  .xheading {
+    grid-area: xheading;
+  }
+  .xrow1A {
+    grid-area: xrow1A;
+  }
+  .xrow1B {
+    grid-area: xrow1B;
+  }  
+
+  .xrow1C  {
+    grid-area: xrow1C;
+  }
+
+  .xrow2A {
+    grid-area: xrow2A;
+  }
+
+  .xrow2B{
+    grid-area: xrow2B;
+  }
+
+  .xrow2C  {
+    grid-area: xrow2C;
+  }
+
+  .xrow3A {
+    grid-area: xrow3A;
+  }
+
+  .xrow3B {
+    grid-area: xrow3B;
+  }
+
+  .xrow3C {
+    grid-area: xrow3C;
+  }
+
+  .xrow4A {
+    grid-area: xrow4A;
+  }
+
+  .xrow4B {
+    grid-area: xrow4B;
+  }
+
+  .xrow4C {
+    grid-area: xrow4C;
+  }
+
 
   @media (max-width: 800px) {
     .grid{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto auto 1fr;
-        grid-template-areas: "xpoints   xpointsvalue"
-                             "xbid      xbidvalue"
-                             "xrcr      xrcr"
-                             "xrcrvalue xrcrvalue";
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(6, minxmax(1fr, 20px));
+        grid-template-areas:  "xrow1A     xrow2A"
+                              "xrow1B     xrow2B"
+                              "xrow1C     xrow2C"                              
+                              "xtitle     xtitle"
+                              "xcaption  xcaption"
+                              "xheading  xheading";
                              
       }
-
-      .xpoints {
-        grid-area: xpoints;
+      .xtitle {
+        grid-area: xtitle;
+      }
+      .xcaption {
+        grid-area: xcaption;
+      }
+      .xheading {
+        grid-area: xheading;
+      }
+      .xrow1A {
+        grid-area: xrow1A;
+      }
+      .xrow1B {
+        grid-area: xrow1B;
+      }  
+    
+      .xrow1C  {
+        grid-area: xrow1C;
+      }
+    
+      .xrow2A {
+        grid-area: xrow2A;
+      }
+    
+      .xrow2B{
+        grid-area: xrow2B;
+      }
+    
+      .xrow2C  {
+        grid-area: xrow2C;
       }
 
-      .xpointsvalues  {
-        grid-area: xpointsvalue;
-      }
-
-      .xbid {
-        grid-area: xbid;
-      }
-
-      .xbidvalue{
-        grid-area: xbidvalue;
-      }
-
-      .xrcr  {
-        grid-area: xrcr;
-      }
-
-      .xrcrvalue {
-        grid-area: xrcrvalue;
-      }
-
-      .xtmp {
+      .xrow3A, .xrow3B, .xrow3C, .xrow4A, .xrow4B, .xrow4C  {
         visibility: collapse;
       }
 
