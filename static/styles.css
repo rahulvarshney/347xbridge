@@ -92,7 +92,8 @@
         grid-template-rows: repeat(6, minxmax(1fr, 20px));
         grid-template-areas:  "xrow1A     xrow2A"
                               "xrow1B     xrow2B"
-                              "xrow1C     xrow2C"                              
+                              "xrow1C     xrow1C"
+                              "xrow2C     xrow2C"                              
                               "xtitle     xtitle"
                               "xcaption  xcaption"
                               "xheading  xheading";
