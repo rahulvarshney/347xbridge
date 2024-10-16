@@ -5,7 +5,8 @@ export default function Home() {
   const count = useSignal(3);
   return (
 <div class="grid">
-  <span class="xtitle"><b><i>AMERICAN STANDARD BIDDING</i></b> (CONDENSED) &copy; 2024 Ramesh Varshney</span>
+  <span class="xtitle"><b><i>AMERICAN STANDARD BIDDING</i></b> (CONDENSED)</span>
+  <span class="xcopyright">&copy; 2024 Ramesh Varshney</span>
   <span class="xcaption">ABBREVIATIONS: See at the end of page 6</span>
   <span class="xheading">OPENING BIDS: (Count LSP(1 point for each additional card over 4 cards in a suit) but not SSP)</span>
   <span class="xrow1A">

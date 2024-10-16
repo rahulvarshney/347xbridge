@@ -2,12 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-  
+.grid > span {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgb(88, 45, 45);
+  border-right: 1px solid black;
+}
+
+@media (min-width: 801px) {  
   .grid {
     display: grid;
     grid-template-columns: 10% 1fr 1fr;
-    grid-template-rows: repeat(7, minmax(1fr, 20px));
-    grid-template-areas:  "xtitle     xtitle      xtitle    "
+    grid-template-rows: repeat(8, minmax(1fr, 20px));
+    grid-template-areas:  "xtitle     xtitle      xcopyright"
                           "xcaption   xcaption    xcaption  "
                           "xheading   xheading    xheading  "
                           "xrow1A     xrow1B      xrow1C"
@@ -21,11 +28,8 @@
     text-align: justify;
   }
 
-  .grid > span {
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    border-top: 1px solid rgb(88, 45, 45);
-    border-right: 1px solid black;
+  .xcopyright {
+    grid-area: xcopyright;
   }
 
   .xtitle {
@@ -84,20 +88,27 @@
     grid-area: xrow4C;
   }
 
-
+}
   @media (max-width: 800px) {
     .grid{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 50px 1fr;
         grid-template-rows: repeat(6, minxmax(1fr, 20px));
         grid-template-areas:  "xrow1A     xrow2A"
                               "xrow1B     xrow2B"
                               "xrow1C     xrow1C"
                               "xrow2C     xrow2C"                              
                               "xtitle     xtitle"
-                              "xcaption  xcaption"
-                              "xheading  xheading";
+                              "xcaption   xcaption"
+                              "xheading   xheading"
+                              "xcopyright xcopyright";
                              
+      }
+      .xcopyright {
+        grid-area: xcopyright;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .xtitle {
         grid-area: xtitle;
