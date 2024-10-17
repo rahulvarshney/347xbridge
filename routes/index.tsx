@@ -7,8 +7,8 @@ export default function Home() {
 <div class="grid">
   <span class="xtitle"><b><i>AMERICAN STANDARD BIDDING</i></b> (CONDENSED)</span>
   <span class="xcopyright">&copy; 2024 Ramesh Varshney</span>
-  <span class="xcaption">ABBREVIATIONS: See at the end of page 6</span>
-  <span class="xheading">OPENING BIDS: (Count LSP(1 point for each additional card over 4 cards in a suit) but not SSP)</span>
+  <span class="xcaption"><span style="color:red;"><b><u>ABBREVIATIONS:</u></b></span> See at the end of page 6</span>
+  <span class="xheading"><span style="color:red;"><b><u>OPENING BIDS:</u></b></span> (Count LSP(1 point for each additional card over 4 cards in a suit) but not SSP)</span>
   <span class="xrow1A">
     <strong>Points</strong>
   </span>

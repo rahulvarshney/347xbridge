@@ -25,11 +25,13 @@
                           "xrow6A     xrow6B      xrow6C"
                           "xrow7A     xrow7B      xrow7C"
                           "xrow8A     xrow8B      xrow8C";
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-                                               
-    background-color: #21F396;
+    border: 1px solid black;
+    border-radius: 3px;                                           
+    background-color: whitesmoke;
     text-align: justify;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+    margin: 100px 50px 100px 50px ;
+    padding: 10px;
   }
 
   .xcopyright {
