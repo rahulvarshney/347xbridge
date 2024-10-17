@@ -6,9 +6,12 @@ export default function Home() {
   return (
 <div class="grid">
   <span class="xtitle"><b><i>AMERICAN STANDARD BIDDING</i></b> (CONDENSED)</span>
-  <span class="xcopyright">&copy; 2024 Ramesh Varshney</span>
+  <span class="xcopyright">&copy; 1996-2024 Ramesh Varshney</span>
   <span class="xcaption"><span style="color:red;"><b><u>ABBREVIATIONS:</u></b></span> See at the end of page 6</span>
   <span class="xheading"><span style="color:red;"><b><u>OPENING BIDS:</u></b></span> (Count LSP(1 point for each additional card over 4 cards in a suit) but not SSP)</span>
+  <span class="xfooter">
+  For comments/suggestions <span style="color:blue;"><u><i><a href="mailto:347xbridge@gmail.com">contact Ramesh, email 347xbridge@gmail.com</a></i></u></span>, <a href="tel:+13479274343">Ph:(347) 927-4343</a>, Rev: 2A (06/11)
+  </span>
   <span class="xrow1A">
     <strong>Points</strong>
   </span>

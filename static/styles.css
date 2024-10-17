@@ -24,7 +24,8 @@
                           "xrow5A     xrow5B      xrow5C"
                           "xrow6A     xrow6B      xrow6C"
                           "xrow7A     xrow7B      xrow7C"
-                          "xrow8A     xrow8B      xrow8C";
+                          "xrow8A     xrow8B      xrow8C"
+                          "xfooter    xfooter     xfooter";
     border: 1px solid black;
     border-radius: 3px;                                           
     background-color: whitesmoke;
@@ -46,6 +47,9 @@
   }
   .xheading {
     grid-area: xheading;
+  }
+  .xfooter {
+    grid-area: xfooter;
   }
   .xrow1A {
     grid-area: xrow1A;
@@ -142,11 +146,18 @@
                               "xtitle     xtitle"
                               "xcaption   xcaption"
                               "xheading   xheading"
-                              "xcopyright xcopyright";
+                              "xcopyright xcopyright"
+                              "xfooter    xfooter";
                              
       }
       .xcopyright {
         grid-area: xcopyright;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .xfooter {
+        grid-area: xfooter;
         display: flex;
         justify-content: center;
         align-items: center;
