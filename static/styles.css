@@ -183,9 +183,14 @@
         grid-area: xrow2C;
       }
 
-/*      .xrow3A, .xrow3B, .xrow3C, .xrow4A, .xrow4B, .xrow4C  {
+      .xrow3A, .xrow3B, .xrow3C, 
+      .xrow4A, .xrow4B, .xrow4C,
+      .xrow5A, .xrow5B, .xrow5C,
+      .xrow6A, .xrow6B, .xrow6C,
+      .xrow7A, .xrow7B, .xrow7C,
+      .xrow8A, .xrow8B, .xrow8C   {
         visibility: collapse;
-      }*/
+      }
 
 
     }
