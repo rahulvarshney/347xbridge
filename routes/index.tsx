@@ -33,7 +33,10 @@ export default function Home() {
       </p>
       <p>&#10086; Other restrictions as above.</p>
     </span>
-    <span class="xrow4A">15-17 HCP</span>
+    <span class="xrow4A">
+      <p>15-17</p>
+      <p>HCP</p>
+    </span>
     <span class="xrow4B">
       <p>(A) BH: 1NT(NF)</p>
       <br></br>
@@ -43,6 +46,48 @@ export default function Home() {
       <p>(A)BH: No void, No singleton & No more than one doubleton.</p>
       <p>(B) Jump or reverse bid next with 16 or 17 HCP</p>
     </span>
+    <span class="xrow5A">
+      <p>20-21</p>
+      <p>HCP</p>
+    </span>
+    <span class="xrow5B">
+      <p>(A) BH: 2NT (NF)</p>
+      <p>(B) NBH: 1 of a suit (NF)</p>
+    </span>
+    <span class="xrow5C">
+    <p>(A) BH: As above</p>
+    <p>(B) Jump shift next time</p>
+    </span>
+    <span class="xrow6A">
+      &ge;22 HCP
+    </span>
+    <span class="xrow6B">
+      2C (F)
+    </span>
+    <span class="xrow6C">
+    &ge;22 HCP or you have 9 tricks in your hand
+    </span>
+    <span class="xrow7A">
+    6-11 HCP
+    </span>
+    <span class="xrow7B">
+      <p>2 of a 6 card suit (except 2C) (NF)</p>    
+      <p>Weak 2 bid</p>
+    </span>
+    <span class="xrow7C">
+      <p>&ge;2 of the top 4 honors, no 4 card major side suit.</p>
+      <p>Preferably no void.</p>
+    </span>
+    <span class="xrow8A">
+      6-10 HCP
+    </span>
+    <span class="xrow8B">
+    3 of a 7 cards suit (Preempt bid)(NF)
+    </span>
+    <span class="xrow8C">
+    &ge;2 honors in the suit
+    </span>
+
 </div>
 
   );

@@ -20,7 +20,11 @@
                           "xrow1A     xrow1B      xrow1C"
                           "xrow2A     xrow2B      xrow2C"
                           "xrow3A     xrow3B      xrow3C"
-                          "xrow4A     xrow4B      xrow4C";
+                          "xrow4A     xrow4B      xrow4C"
+                          "xrow5A     xrow5B      xrow5C"
+                          "xrow6A     xrow6B      xrow6C"
+                          "xrow7A     xrow7B      xrow7C"
+                          "xrow8A     xrow8B      xrow8C";
     border-top: 1px solid black;
     border-right: 1px solid black;
                                                
@@ -87,7 +91,42 @@
   .xrow4C {
     grid-area: xrow4C;
   }
-
+  .xrow5A {
+    grid-area: xrow5A;
+  }
+  .xrow5B {
+    grid-area: xrow5B;
+  }
+  .xrow5C {
+    grid-area: xrow5C;
+  }  
+  .xrow6A {
+    grid-area: xrow6A;
+  }
+  .xrow6B {
+    grid-area: xrow6B;
+  }
+  .xrow6C {
+    grid-area: xrow6C;
+  }  
+  .xrow7A {
+    grid-area: xrow7A;
+  }
+  .xrow7B {
+    grid-area: xrow7B;
+  }
+  .xrow7C {
+    grid-area: xrow7C;
+  }
+  .xrow8A {
+    grid-area: xrow8A;
+  }
+  .xrow8B {
+    grid-area: xrow8B;
+  }
+  .xrow8C {
+    grid-area: xrow8C;
+  }
 }
   @media (max-width: 800px) {
     .grid{
@@ -142,9 +181,9 @@
         grid-area: xrow2C;
       }
 
-      .xrow3A, .xrow3B, .xrow3C, .xrow4A, .xrow4B, .xrow4C  {
+/*      .xrow3A, .xrow3B, .xrow3C, .xrow4A, .xrow4B, .xrow4C  {
         visibility: collapse;
-      }
+      }*/
 
 
     }
