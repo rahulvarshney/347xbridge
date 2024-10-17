@@ -90,7 +90,7 @@ export default function Home() {
     <span class="xrow8C">
     &ge;2 honors in the suit
     </span>
-
+    <span class="xpageno">Page 1 of 6</span>
 </div>
 
   );

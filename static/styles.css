@@ -25,7 +25,8 @@
                           "xrow6A     xrow6B      xrow6C"
                           "xrow7A     xrow7B      xrow7C"
                           "xrow8A     xrow8B      xrow8C"
-                          "xfooter    xfooter     xfooter";
+                          "xfooter    xfooter     xfooter"
+                          " .            .        xpageno";
     border: 1px solid black;
     border-radius: 3px;                                           
     background-color: whitesmoke;
@@ -33,6 +34,10 @@
     box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
     margin: 100px 50px 100px 50px ;
     padding: 10px;
+  }
+
+  .xpageno {
+    grid-area: xpageno;
   }
 
   .xcopyright {
